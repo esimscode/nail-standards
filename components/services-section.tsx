@@ -49,7 +49,7 @@ const services: {
 
 export function ServicesSection() {
   return (
-    <section className="p-6 md:p-10 my-10 md:my-20">
+    <section id="services" className="p-6 md:p-10 my-10 md:my-20">
       <div className="grid lg:grid-cols-12 gap-10 lg:gap-20 items-start">
         {/* Left Column */}
         <div className="lg:col-span-5 flex flex-col gap-8 md:gap-12 lg:sticky lg:top-32">
@@ -60,7 +60,7 @@ export function ServicesSection() {
             </span>
           </div>
 
-          <h2 className="text-6xl md:text-8xl lg:text-[7rem] tracking-tighter uppercase leading-[0.85] wrap-break-word font-heading font-normal">
+          <h2 className="text-6xl md:text-7xl lg:text-[6rem] tracking-tighter uppercase leading-[0.85] wrap-break-word font-heading font-normal">
             Our
             <br />
             Services

@@ -159,7 +159,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="en" className={`${inter.variable} ${playfair.variable} scroll-smooth scroll-pt-24`}>
       <body className="antialiased overflow-x-hidden text-primary">
         <script
           type="application/ld+json"

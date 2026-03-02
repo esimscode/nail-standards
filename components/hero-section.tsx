@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export function HeroSection() {
   return (
-    <section className="md:p-10 p-6">
+    <section id="hero" className="md:p-10 p-6">
       <div className="relative w-full h-[75vh] min-h-[600px] rounded-[1.5rem] md:rounded-[2.5rem] overflow-hidden flex flex-col justify-between p-8 md:p-12 text-white shadow-2xl shadow-black/5 bg-stone-900">
         {/* Background Image */}
         <Image

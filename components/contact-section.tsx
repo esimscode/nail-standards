@@ -12,7 +12,7 @@ export function ContactSection() {
   >(subscribe, null);
 
   return (
-    <section className="p-6 md:p-10 my-20 rounded-[2rem] mx-6 md:mx-10 shadow-xl border shadow-stone-200/50 border-stone-100 bg-stone-200">
+    <section id="newsletter" className="p-6 md:p-10 my-20 rounded-[2rem] mx-6 md:mx-10 shadow-xl border shadow-stone-200/50 border-stone-100 bg-stone-200">
       <div className="grid lg:grid-cols-2 gap-16 lg:gap-24 md:p-10 p-6 items-start">
         {/* Title */}
         <div className="flex flex-col gap-8">
