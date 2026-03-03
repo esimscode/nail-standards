@@ -26,8 +26,8 @@ const services: {
       badge: "Coming Soon",
       detail: {
         duration: "2 hours",
-        price: "$80",
-        image: "/images/smart-pedicure.webp",
+        price: "",
+        image: "/images/smart-pedicure-img.webp",
         longDescription:
           "A waterless pedicure using professional-grade tools for precise callus removal and cuticle care. The dry technique allows for more accurate work and longer-lasting results, finished with a luxurious moisturizing treatment and your choice of polish.",
         highlights: ["Waterless technique", "Callus treatment", "Cuticle care", "Polish finish"],
