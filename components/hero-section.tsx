@@ -8,11 +8,11 @@ export function HeroSection() {
       <div className="relative w-full h-[75vh] min-h-[600px] rounded-[1.5rem] md:rounded-[2.5rem] overflow-hidden flex flex-col justify-between p-8 md:p-12 text-white shadow-2xl shadow-black/5 bg-stone-900">
         {/* Background Image */}
         <Image
-          src="/images/nailstandards-hero-img.webp"
+          src="/images/nails-jean.webp"
           className="hover:scale-100 transition-transform duration-[2s] ease-out sepia-[.5] opacity-40 blur-xs w-full h-full object-cover absolute top-0 right-0 bottom-0 left-0 scale-105"
           alt="Minimalist nail art"
-          width={1920}
-          height={1280}
+          width={810}
+          height={1080}
         />
 
         {/* Top elements */}
