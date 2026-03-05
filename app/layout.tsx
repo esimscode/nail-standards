@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     title: "Nail Standards | Russian Manicure Specialist in Lakeway TX",
     description:
       "Private luxury nail studio specializing in Russian manicures and natural nail care. Book your appointment today.",
-    url: "https://nailstandards.com",
+    url: "https://nailstandards.co",
     siteName: "Nail Standards",
     locale: "en_US",
     type: "website",
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   alternates: {
-    canonical: "https://nailstandards.com",
+    canonical: "https://nailstandards.co",
   },
 };
 
@@ -53,7 +53,7 @@ const jsonLd = {
   name: "Nail Standards",
   description:
     "Private luxury nail studio specializing in Russian manicures, dry pedicures, and natural nail care. 10+ years of experience in meticulous cuticle work, structure, and long-term nail growth.",
-  url: "https://nailstandards.com",
+  url: "https://nailstandards.co",
   telephone: "+1-512-502-4921",
   address: {
     "@type": "PostalAddress",
@@ -95,7 +95,7 @@ const jsonLd = {
     },
   ],
   priceRange: "$$",
-  image: "https://nailstandards.com/images/nailstandards-hero-img.webp",
+  image: "https://nailstandards.co/images/nailstandards-hero-img.webp",
   sameAs: [
     "https://www.instagram.com/nailstandards/",
     "https://www.threads.com/@nailstandards",
