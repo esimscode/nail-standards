@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from '@vercel/speed-insights/next';
 import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
@@ -160,7 +161,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${inter.variable} ${playfair.variable} scroll-smooth scroll-pt-24`}>
+    <html lang="en" className={`${inter.variable} ${playfair.variable} scroll-smooth scroll-pt-24`} suppressHydrationWarning={true}>
       <body className="antialiased overflow-x-hidden text-primary">
         <script
           type="application/ld+json"
@@ -168,6 +169,7 @@ export default function RootLayout({
         />
         {children}
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
